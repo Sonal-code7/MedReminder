@@ -28,9 +28,34 @@ MedReminder helps users organize their medicines, keep track of their daily sche
 
 # Project Structure
 
-```text
+text
 MedReminder/
 
  medreminder.py
  requirements.txt
  README.md
+
+*Clone your repository
+git clone https://github.com/Sonal-code7/MedReminder.git
+cd MedReminder
+
+*Install dependencies
+pip install -r requirements.txt
+
+**Run the application
+streamlit run medreminder.py
+
+📌 Future Improvements
+
+Some features that can be added in future versions:
+
+- Reliable background notifications and alarms
+- Persistent database storage
+- User accounts
+- Improved mobile experience
+- Cloud-based medication data
+- More detailed analytics
+
+ 
+- Disclaimer
+MedReminder is a software project intended for reminder and tracking purposes. It does not provide medical advice and should not replace guidance from a qualified healthcare professional.
