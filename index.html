@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedReminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Crucial wrapper to stack items vertically -->
+    <div class="app-container">
+        <h1>MedReminder</h1>
+        
+        <!-- Card 1 -->
+        <div class="card">
+            <h2>Set Reminder</h2>
+            <input type="text" id="medName" placeholder="Medicine Name">
+            <input type="time" id="medTime">
+            <button onclick="addReminder()">Add Reminder</button>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <h2>Active Reminders</h2>
+            <ul id="reminderList"></ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <h2>Daily Log Tracker</h2>
+            <ul id="logList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+</html>

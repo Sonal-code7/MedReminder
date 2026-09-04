@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7C3AED; 
+    margin: 0;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Stacks elements vertically */
+.app-container {
+    width: 100%;
+    max-width: 400px; 
+    display: block; /* Disables any accidental horizontal flex layouts */
+}
+
+h1 {
+    text-align: center;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+/* Forces each card onto a brand new line */
+.card {
+    background: #2563EB; 
+    color: rgb(16, 15, 15);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px; /* Generates space to scroll down to next item */
+    box-shadow: 0 4px 10px rgba(65, 255, 226, 0.15);
+    box-sizing: border-box;
+    width: 100%; 
+    display: block; 
+}
+
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #1a73e8; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+.taken-btn {
+    background: green;
+    width: auto;
+    padding: 6px 12px;
+    margin: 0;
+}
+
+body {
+    /* Replace with the path to your downloaded image */
+    background-color:#F8FAFC; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background static while scrolling */
+    min-height: 100vh;
+    margin: 0;
+}
+.progress-card,
+.progress-label,
+.progress-value {
+    color: #172033 !important;
+}
